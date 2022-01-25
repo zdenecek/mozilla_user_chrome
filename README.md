@@ -4,7 +4,7 @@ This is my user chrome for the Mozilla Firefox browser.
 It is configured for usage with the **Tree tabs extension** as it hides the default tabs at the top.
 
 The userchrome has to be placed in this location:
-> %APPDATA%\Mozilla\Firefox\Profiles\<profile>\chrome\userChrome.css
+> %APPDATA%\Mozilla\Firefox\Profiles\\\<profile>\chrome\userChrome.css
 
 The chrome applies folowing changes:
 
