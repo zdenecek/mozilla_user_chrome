@@ -12,3 +12,4 @@ The chrome applies folowing changes:
 - makes the tab bar of 1px height so that the window can still be grabbed
 - removes margins and padding of bookmarks in the panel 
 - removes sidebar header - useful for the Tree tabs extension
+- removes folder icons in bookmarks, folders are represented with a black outlined label

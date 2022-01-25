@@ -25,3 +25,13 @@
 	margin: 0px !important; 
 	padding: var(--bookmark-block-padding) 2px !important; 
 }
+
+/* Remove folder icons */
+
+ .bookmark-item[type="menu"] .toolbarbutton-icon {
+	visibility: collapse !important;
+}
+
+toolbarbutton.bookmark-item[type="menu"] label.toolbarbutton-text {
+  border: solid black 1px;
+}
