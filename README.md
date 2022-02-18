@@ -6,6 +6,11 @@ It is configured for usage with the **Tree tabs extension** as it hides the defa
 The userchrome has to be placed in this location:
 > %APPDATA%\Mozilla\Firefox\Profiles\\\<profile>\chrome\userChrome.css
 
+For the chrome to work you must enable 
+```
+toolkit.legacyUserProfileCustomizations.stylesheets
+```
+
 The chrome applies folowing changes:
 
 - hides the tabs
