@@ -15,9 +15,6 @@
   visibility: collapse !important;
 } 
 
-#nav-bar {
-	/*margin-top: 8px;*/
-}
 
 /* make bookmarks more concentrated */
 
@@ -28,10 +25,17 @@
 
 /* Remove folder icons */
 
- .bookmark-item[type="menu"] .toolbarbutton-icon {
+.bookmark-item[type="menu"] .toolbarbutton-icon {
 	visibility: collapse !important;
 }
 
 toolbarbutton.bookmark-item[type="menu"] label.toolbarbutton-text {
   border: solid black 1px;
 }
+
+/* Fedora tabs still showing fix */
+
+#tabbrowser-tabs {
+  visibility: hidden;
+}
+
