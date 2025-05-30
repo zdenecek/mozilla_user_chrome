@@ -39,3 +39,10 @@ toolbarbutton.bookmark-item[type="menu"] label.toolbarbutton-text {
   visibility: hidden;
 }
 
+/* 2025 macos Hide the upper bar */
+
+.toolbar-items {
+  visibility: collapse !important;
+}
+
+
